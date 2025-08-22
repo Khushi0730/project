@@ -3,7 +3,7 @@
 a = int(input('Enter any number :  ')) <br>
 b = int(input('Enter any number :  '))  <br>
 def add_two_numbers(a,b):  <br>
-    return a+b <br>
+<pre> return a+b </pre>  <br>
 
 # 2. Find the square of a number <br> 
 c = int(input('Enter any number: ')) <br>
