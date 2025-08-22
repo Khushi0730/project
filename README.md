@@ -40,5 +40,8 @@ def count_vowels(s): <br>
             count += 1 <br>
         return count <br>
 
-# 7. 
+# 7. Reverse a string <br>
+def reverse_string(s): <br>
+    return s[::-1] <br>
+
 
