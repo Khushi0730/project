@@ -30,6 +30,15 @@ def factorial(n): <br>
         result *= i <br>
     return result <br>
 
-# 5. Calculate factorial of a number <br>
+# 6. Count vowels of a string <br>
+s = input("Enter a string :  ") <br>
+def count_vowels(s): <br>
+    vowels = 'aeiouAEIOU'<br>
+    count = 0 <br>
+    for ch in s: <br>
+        if ch in vowels: <br>
+            count += 1 <br>
+        return count <br>
 
-    
+# 7. 
+
