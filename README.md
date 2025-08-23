@@ -3,7 +3,7 @@
 a = int(input('Enter any number :  ')) <br>
 b = int(input('Enter any number :  '))  <br>
 def add_two_numbers(a,b):  <br>
-<pre> return a+b </pre>  <br>
+    return a+b   <br>
 
 # 2. Find the square of a number <br> 
 c = int(input('Enter any number: ')) <br>
@@ -44,6 +44,10 @@ def count_vowels(s): <br>
 s = input('Enter a string') <br>
 def reverse_string(s): <br>
     return s[::-1] <br>
+
+# 8. Check if a number is prime
+num = int(input('Enter any number'))
+
 
 # 8. 
 
