@@ -57,77 +57,77 @@ def is_prime(n):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return True<br>
 
 
-# 9. Calculate simple interest
-def simple_interest(principal, rate, time):
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return (principal * rate * time) / 100
+# 9. Calculate simple interest<br>
+def simple_interest(principal, rate, time):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return (principal * rate * time) / 100<br>
 
-# 10. Check if string is palindrome
-def is_palindrome(s):
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return s == s[::-1] 
+# 10. Check if string is palindrome<br>
+def is_palindrome(s):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return s == s[::-1] <br>
 
-<b><i>Medium Level Function Question</b></i>
+<b><i>Medium Level Function Question</b></i><br>
 
-# 1. Fibonacci series up to n terms
-def fibonacci(n):
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a, b = 0, 1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;series = []
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for _ in range(n):
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;series.append(a)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a, b = b, a + b
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return series
+# 1. Fibonacci series up to n terms<br>
+def fibonacci(n):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a, b = 0, 1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;series = []<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for _ in range(n):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;series.append(a)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a, b = b, a + b<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return series<br>
 
-# 2. GCD of two numbers
-def gcd(a, b):
-    while b:
-        a, b = b, a % b
-    return a
+# 2. GCD of two numbers<br>
+def gcd(a, b):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while b:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a, b = b, a % b<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return a<br>
 
-# 3. LCM of two numbers
-def lcm(a, b):
-    return abs(a * b) // gcd(a, b)
+# 3. LCM of two numbers<br>
+def lcm(a, b):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return abs(a * b) // gcd(a, b)<br>
 
-# 4. Sum of digits of a number
-def sum_of_digits(n):
-    return sum(int(digit) for digit in str(abs(n)))
+# 4. Sum of digits of a number<br>
+def sum_of_digits(n):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return sum(int(digit) for digit in str(abs(n)))<br>
 
-# 5. Second largest element in list
-def second_largest(lst):
-    unique = list(set(lst))
-    unique.sort()
-    return unique[-2] if len(unique) >= 2 else None
+# 5. Second largest element in list<br>
+def second_largest(lst):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unique = list(set(lst))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unique.sort()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return unique[-2] if len(unique) >= 2 else None <br>
 
-# 6. Frequency of characters in string
-def char_frequency(s):
-    freq = {}
-    for ch in s:
-        freq[ch] = freq.get(ch, 0) + 1
-    return freq
+# 6. Frequency of characters in string<br>
+def char_frequency(s):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;freq = {}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for ch in s:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;freq[ch] = freq.get(ch, 0) + 1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return freq<br>
 
-# 7. Check if number is Armstrong
-def is_armstrong(n):
-    digits = str(n)
-    power = len(digits)
-    return n == sum(int(d) ** power for d in digits)
+# 7. Check if number is Armstrong<br>
+def is_armstrong(n):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;digits = str(n)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;power = len(digits)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return n == sum(int(d) ** power for d in digits)<br>
 
-# 8. Check if number is Perfect
-def is_perfect(n):
-    if n < 2:
-        return False
-    divisors = [i for i in range(1, n) if n % i == 0]
-    return sum(divisors) == n
+# 8. Check if number is Perfect<br>
+def is_perfect(n):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if n < 2:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return False<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divisors = [i for i in range(1, n) if n % i == 0]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return sum(divisors) == n<br>
 
-# 9. Return sorted list without using sort()
-def manual_sort(lst):
-    for i in range(len(lst)):
-        for j in range(i + 1, len(lst)):
-            if lst[i] > lst[j]:
-                lst[i], lst[j] = lst[j], lst[i]
-    return lst
+# 9. Return sorted list without using sort()<br>
+def manual_sort(lst):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in range(len(lst)):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for j in range(i + 1, len(lst)):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if lst[i] > lst[j]:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lst[i], lst[j] = lst[j], lst[i]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return lst<br>
 
-# 10. Word with maximum length in string
-def max_length_word(s):
-    words = s.split()
-    return max(words, key=len) if words else ""
+# 10. Word with maximum length in string<br>
+def max_length_word(s):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;words = s.split()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return max(words, key=len) if words else ""<br>
 
 
 
