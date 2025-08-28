@@ -40,14 +40,19 @@ def count_vowels(s): <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count += 1 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return count <br>
 
+# 7. Reverse a string.<br>
+def reverse_string(s):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return s[::-1]
+
+
 # 8. Check if a number is prime <br>
-def is_prime(n):
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if n <= 1:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return False
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in range(2, int(n**0.5) + 1):
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if n % i == 0:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return False
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return True
+def is_prime(n):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if n <= 1:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return False<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in range(2, int(n**0.5) + 1):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if n % i == 0:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return False<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return True<br>
 
 
 # 8. 
