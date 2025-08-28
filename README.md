@@ -33,12 +33,12 @@ def factorial(n): <br>
 # 6. Count vowels of a string <br>
 s = input("Enter a string :  ") <br>
 def count_vowels(s): <br>
-    vowels = 'aeiouAEIOU'<br>
-    count = 0 <br>
-    for ch in s: <br>
-        if ch in vowels: <br>
-            count += 1 <br>
-        return count <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vowels = 'aeiouAEIOU'<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count = 0 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for ch in s: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ch in vowels: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count += 1 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return count <br>
 
 # 7. Reverse a string <br>
 s = input('Enter a string') <br>
