@@ -25,10 +25,10 @@ def maximum_of_three(a,b,c): <br>
 # 5. Calculate factorial of a number <br>
 n = int(input('Enter any number:  ')) <br>
 def factorial(n): <br> 
-    result = 1 <br>
-    for i in range(1,n+1): <br> 
-        result *= i <br>
-    return result <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = 1 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in range(1,n+1): <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result *= i <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return result <br>
 
 # 6. Count vowels of a string <br>
 s = input("Enter a string :  ") <br>
