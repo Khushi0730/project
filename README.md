@@ -1,3 +1,5 @@
+<b><i> Basic Function Questions</i></b>
+
 # project
 # 1. Add two numbers <br>
 a = int(input('Enter any number :  ')) <br>
@@ -55,5 +57,13 @@ def is_prime(n):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return True<br>
 
 
-# 8. 
+# 9. Calculate simple interest
+def simple_interest(principal, rate, time):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return (principal * rate * time) / 100
+
+# 10. Check if string is palindrome
+def is_palindrome(s):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return s == s[::-1] 
+
+
 
