@@ -129,52 +129,7 @@ def max_length_word(s):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;words = s.split()<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return max(words, key=len) if words else ""<br>
 
-# 1. Print numbers from 1 to 10 using a for loop<br>
-for i in range(1, 11):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i, end=" ")<br>
-print()<br>
 
-# 2. Print the sum of first 100 natural numbers<br>
-total = 0<br>
-for i in range(1, 101):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total += i<br>    
-print("Sum of first 100 natural numbers:", total)<br>
-
-# 3. Print the multiplication table of a given number<br>
-num = 5  # you can change this number<br>
-for i in range(1, 11):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f"{num} x {i} = {num * i}")<br>  
-
-# 4. Print all even numbers between 1 and 50<br>
-for i in range(2, 51, 2):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i, end=" ")<br>
-print()<br>
-
-# 5. Reverse a number using a for loop<br>
-num = 12345<br>
-rev = 0<br>
-for digit in str(num):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rev = int(digit) + rev * 10<br>
-print("Reversed number:", rev)<br>
-
-
-# 1. Print this pattern:<br>
-for i in range(1, 6):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("*" * i)<br>
-
-# 2. Print this pattern:<br>
-for i in range(5, 0, -1):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("*" * i)<br>
-
-# 3. Print this right aligned pattern:<br>
-n = 5<br>
-for i in range(1, n+1):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(" " * (n-i) + "*" * i)<br>
-
-# 4. Print this pyramid:<br>
-n = 5<br>
-for i in range(1, n+1):<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(" " * (n-i) + "*" * (2*i-1))<br>
 
 
 
