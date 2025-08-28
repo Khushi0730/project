@@ -14,7 +14,7 @@ def square(c): <br>
 
 # 3. Check if a number is even or odd <br> 
 num = int(input('Enter any number: ')) <br> 
-def even_or_odd(num): <br>
+def even_or_odd(num): <br>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "Even" if num % 2 == 0 else 'odd' <br>
 
 # 4. Find the maximum of three numbers <br>
